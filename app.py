@@ -146,5 +146,8 @@ def calculate_similarity(image_features, text_features):
     values, indices = similarity[0].topk(3)
     return values, indices
 
+def hola():
+    print("hola")
+
 # Ejecutar el bot con el token
 bot.run(token_key)

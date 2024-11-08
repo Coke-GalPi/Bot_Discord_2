@@ -148,6 +148,7 @@ def calculate_similarity(image_features, text_features):
 
 def hola():
     print("hola")
+    print("HOle")
 
 # Ejecutar el bot con el token
 bot.run(token_key)
